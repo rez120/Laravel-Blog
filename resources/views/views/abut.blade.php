@@ -9,7 +9,7 @@
       
     </head>
     <body class="antialiased">
-       <h1>index</h1>
-       <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum repudiandae dolores ut fuga ab nisi beatae inventore nostrum deserunt. Blanditiis.</p>
+       <h1>About</h1>
+       <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis, at?</p>
     </body>
 </html>
