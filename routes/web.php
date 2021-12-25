@@ -13,6 +13,21 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
+//Route::get('/', function () {
+//    return view('welcome');
+//});
+
+
+Route::get('/', function(){
     return view('welcome');
+});
+
+Route::prefix('/prefix')->group(function(){
+    Route::get('/', function (){
+        return 'hellow';
+    });
+
+    Route::get('/salve', function (){
+        return 'salutor';
+    });
 });
